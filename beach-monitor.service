@@ -1,0 +1,17 @@
+[Unit]
+Description=Monitor disponibilità spiaggia La Pelosa
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Modifica User e i percorsi se necessario
+User=pi
+WorkingDirectory=/home/pi/beach
+EnvironmentFile=/home/pi/beach/.env
+ExecStart=/home/pi/beach/venv/bin/python /home/pi/beach/beach_monitor.py
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target
