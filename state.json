@@ -1,17 +1,17 @@
 {
   "14/07/2026": {
-    "available": false,
-    "last_notified": 0,
+    "available": true,
+    "last_notified": 1784023188.4044669,
     "count": 0
   },
   "15/07/2026": {
-    "available": false,
-    "last_notified": 0,
+    "available": true,
+    "last_notified": 1784023188.4044669,
     "count": 0
   },
   "16/07/2026": {
-    "available": false,
-    "last_notified": 0,
+    "available": true,
+    "last_notified": 1784023188.4044669,
     "count": 0
   }
 }
