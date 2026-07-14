@@ -36,7 +36,7 @@ jobs:
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
           # --- personalizza qui sotto ---
           WATCH_DATES: ''      # es '15/07/2026,16/07/2026' | vuoto = tutte le date
-          MIN_SPOTS: '1'       # posti minimi per far scattare l'avviso
+          MIN_SPOTS: '0'       # posti minimi per far scattare l'avviso
         run: python beach_monitor.py --once
 
       - name: Salva lo stato (per non ripetere gli avvisi)
