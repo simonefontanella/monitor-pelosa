@@ -75,8 +75,8 @@
     "count": 0
   },
   "29/07/2026": {
-    "available": true,
+    "available": false,
     "last_notified": 1785141282.2359357,
-    "count": 17
+    "count": 0
   }
 }
